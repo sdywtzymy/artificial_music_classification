@@ -60,8 +60,6 @@ Note: For program own options,
 * 'output_path' is the path of results
 * 'generate_data' is for using music files(like '.mp3') or mel-gram files(like '.npy') as input. '1' stands for using music data and '0' stands for using mel-gram data.
 
-## Preprocessing
-
 ## Model
 ![CRNN](https://github.com/sdywtzymy/artificial_music_classification/blob/master/img/crnn.png "CRNN model")
 The CRNN model is built in class CRNN in 'crnn_model.py'
@@ -71,4 +69,8 @@ The CRNN model is built in class CRNN in 'crnn_model.py'
 python example_music_tag.py
 ```
 
-## Result
+## Example Result
+![result](https://github.com/sdywtzymy/artificial_music_classification/blob/master/img/result.png "result")
+
+## More Infomation
+you can read our report of this project.
