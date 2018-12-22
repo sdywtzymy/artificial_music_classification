@@ -64,3 +64,11 @@ Note: For program own options,
 
 ## Model
 ![CRNN](https://github.com/sdywtzymy/artificial_music_classification/blob/master/img/crnn.png "CRNN model")
+The CRNN model is built in class CRNN in 'crnn_model.py'
+
+## Example Usage
+```
+python example_music_tag.py
+```
+
+## Result
