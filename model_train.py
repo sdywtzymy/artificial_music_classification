@@ -47,10 +47,10 @@ if args.generate_data:
     np.save(output_path + '/trainDataY.npy', trainDataY)
     np.save(output_path + '/testDataY.npy', testDataY)
 else:
-    trainDataX = np.load('trainDataX.npy')
-    testDataX = np.load('testDataX.npy' )
-    trainDataY = np.load('trainDataY.npy' )
-    testDataY = np.load('testDataY.npy' )
+    trainDataX = np.load(train_data_path + '/trainDataX.npy')
+    testDataX = np.load(train_data_path + '/testDataX.npy' )
+    trainDataY = np.load(train_data_path + '/trainDataY.npy' )
+    testDataY = np.load(train_data_path + '/testDataY.npy' )
 
 
 obj_NN = CRNN(dropout_layer_rate = 0.1,
